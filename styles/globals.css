@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 24px;
+}
+::-webkit-scrollbar-thumb {
+  background: #374151;
+  cursor: pointer;
+  border-radius: 24px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 24px;
+  background: #1f2937;
+}
+
+.svg-icon {
+  width: 30px;
+  height: 30px;
+}
