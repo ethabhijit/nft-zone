@@ -124,7 +124,7 @@ const CreateItem = () => {
             }
           />
           <input
-            placeholder="Asset Price in Eth"
+            placeholder="Asset Price in Matic"
             disabled={loading}
             className="mt-2 border border-gray-700 rounded p-3 bg-gray-800 text-white"
             onChange={(e) =>
